@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uploadImages": "/components/upImg/upImg"
+  },
+  "navigationBarTitleText": "提交订单"
+}

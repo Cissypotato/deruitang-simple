@@ -1,0 +1,18 @@
+<!--components/upImg/upImg.wxml-->
+<view class="up-img-wrapper">
+
+    
+    <view class='i-wrapper'>
+        <view class='img-wrapper' wx:for="{{img_path}}" wx:key wx:if="{{index<count}}">
+            <image src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+            <view class='del' data-idx="{{index}}" bindtap="removeImage">删除处方</view>
+        </view>
+        <view class='img-wrapper add-img-wrapper' bindtap="chooseImage" wx:if="{{img_path.length<count}}">
+            <view class='btn'>添加图片处方</view>
+        </view>
+    </view>
+    <view class="add-img-word">
+        <b>请上传正规处方图片，非处方图片内容将无法通过审核</b>
+    </view>
+
+</view>

@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<view class="container">
+
+	<view class="banner">
+	<image src="/images/banner.png" mode="widthFix"></image>
+	</view>
+
+
+	<view class="section">
+		<view class="title-wrapper">
+			<span class="title">热门药品推荐</span>
+			<!-- <span class="more">全部商品》</span> -->
+		</view>
+		<view class="medicine">
+			<view class="item" data-id="1" bindtap="toDetail">
+				<view class="image-wrapper">
+					<image src="/images/m1.png" mode="widthFix"></image>
+				</view>
+				<view class="name">复方板蓝根颗粒</view>
+				<view class="price"><span>￥</span>19.90</view>
+			</view>
+			<view class="item" data-id="2" bindtap="toDetail">
+				<view class="image-wrapper">
+					<image src="/images/m2.png" mode="widthFix"></image>
+				</view>
+				<view class="name">福辛普利钠片</view>
+				<view class="price"><span>￥</span>50.00</view>
+			</view>
+			<view class="item" data-id="3" bindtap="toDetail">
+				<view class="image-wrapper">
+					<image src="/images/m3.png" mode="widthFix"></image>
+				</view>
+				<view class="name">卤米松乳膏</view>
+				<view class="price"><span>￥</span>25.00</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="section">
+		<view class="title-wrapper">
+			<span class="title">每日低价</span>
+			<!-- <span class="more">全部商品》</span> -->
+		</view>
+		<view class="medicine">
+			<view class="item" data-id="4" bindtap="toDetail">
+				<view class="image-wrapper">
+					<image src="/images/m4.png" mode="widthFix"></image>
+				</view>
+				<view class="name">云南白药创可贴</view>
+				<view class="price"><span>￥</span>42.00</view>
+			</view>
+			<view class="item" data-id="5" bindtap="toDetail">
+				<view class="image-wrapper">
+					<image src="/images/m5.png" mode="widthFix"></image>
+				</view>
+				<view class="name">灭菌级医用棉签</view>
+				<view class="price"><span>￥</span>15.40</view>
+			</view>
+			<view class="item" data-id="6" bindtap="toDetail">
+				<view class="image-wrapper">
+					<image src="/images/m6.png" mode="widthFix"></image>
+				</view>
+				<view class="name">复合酒精消毒液</view>
+				<view class="price"><span>￥</span>5.60</view>
+			</view>
+		</view>
+
+	</view>
+</view>

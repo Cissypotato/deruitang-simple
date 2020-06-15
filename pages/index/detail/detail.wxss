@@ -1,0 +1,17 @@
+/* pages/index/detail/detail.wxss */
+page{background: #e5e5e5;min-height: 100vh;}
+/* .container{} */
+
+/* .header{padding: 33rpx 35rpx;box-sizing: border-box;}
+.header>image{width:100% ;}
+.header>.title{font-size: 34rpx;line-height: 48rpx;color: #4E4F54;margin-top: 33rpx;}
+.header>.info-wrapper{display: flex;justify-content: space-between;align-items: center;margin-top: 48rpx;}
+.header>.info-wrapper>.info{width: 486rpx;font-size: 22rpx;line-height: 30rpx;color: #979797;}
+.header>.info-wrapper>.price{font-size: 24px;line-height: 34px;
+    color: #E64340;} */
+
+.main{width: 100vw;box-sizing: border-box;margin-bottom: 200rpx;}
+.main>image{width: 100%;}
+.btn{text-align: center;padding-bottom: 30rpx;position: fixed;bottom: 0;background-color: #e5e5e5;width: 100%;}
+.btn>image{width: 680rpx;}
+.btn>view{width:680rpx; height: 100rpx;line-height: 100rpx;background-color: rgb(231,78,75);color: #fff;border-radius: 20rpx;margin: 0 auto;}

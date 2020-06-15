@@ -1,0 +1,38 @@
+/**index.wxss**/
+.container{padding: 37rpx 32rpx;width: 100vw;background-color: #E5E5E5;min-height: 100vh;}
+
+/*顶部搜索框*/
+.search{width: 680rpx;height: 100rpx;background: #FFFFFF;border-radius: 10rpx;}
+.search>input{border: 1px solid red;}
+
+
+/*slider*/
+.banner{width: 680rpx;height: 250rpx; background: #FFFFFF;border-radius: 10rpx;margin-top: 24rpx;}
+.banner>image{width: 100%;}
+
+/*药品热门分类*/
+.sorts{display: flex;width: 100%;justify-content: space-between;margin-top: 32rpx;}
+.sorts>.item{width: 131rpx;height: 131rpx;background: rgba(249, 255, 252, 0.6);border-radius: 30rpx;}
+.sorts>.item>image{width: 100%;}
+
+/*文章推荐模块*/
+.infos{display: flex;width: 100%;justify-content: space-between;margin-top: 32rpx;}
+.infos>.left{width: 350rpx;height: 280rpx;background: #FFFFFF;border-radius: 10rpx;}
+.infos>.right{display: flex;flex-direction: column;justify-content: space-between;}
+.infos>.right>view{width: 300rpx; height: 130rpx; background: #FFFFFF;border-radius: 10rpx;}
+.infos>.left>image,.infos>.right>view>image{width: 100%;}
+
+
+/*药品推荐模块*/
+.section{margin-top: 49rpx;}
+.title-wrapper{display: flex;justify-content: space-between;width: 100%;align-items: center;}
+.title-wrapper>.title{font-size: 34rpx;line-height: 48rpx; color: #4E4F54;}
+.title-wrapper>.more{font-size: 24rpx;line-height: 34rpx;color: #979797;}
+
+.medicine{display: flex;justify-content: space-between;width: 100%;margin-top: 30rpx;}
+.medicine>.item{}
+.medicine>.item>.image-wrapper{width: 200rpx;height: 200rpx;background: #FFFFFF;border-radius: 10rpx;}
+.medicine>.item>.image-wrapper>image{width: 100%;}
+.medicine>.item>.name{font-size: 25rpx;line-height: 35rpx;color: #4E4F54;margin-top: 15rpx;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 200rpx;}
+.medicine>.item>.price{font-size: 32rpx;line-height: 45rpx; color: #E64340;font-weight: 500;}
+.medicine>.item>.price>span{font-size: 20rpx;line-height: 28rpx; color: #E64340;}

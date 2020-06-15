@@ -1,0 +1,42 @@
+<view class="container">
+	<view class="page_pack" bindtap="toAddress">
+		<l>
+			<text wx:if="{{address}}">{{address.place}}</text>
+			<text wx:else>请填写你的地址</text>
+		</l>
+		<r>
+			<!-- <icon class="iconfont icon-jiantou_xiangyou"></icon> -->
+			<span>-></span>
+		</r>
+	</view>
+	<view class="page_pack" bindtap="toCertify" wx:if="{{medicine.classify_id==1 && !isReal}}">
+		<l>
+			此产品为处方药，请实名认证后预约
+		</l>
+		<r>
+			<!-- <icon class="iconfont icon-jiantou_xiangyou"></icon> -->
+			<span>-></span>
+		</r>
+	</view>
+	<uploadImages  class="upimg" wx:if="{{medicine.classify_id==1}}" bindmyevent="onMyEvent"  count='{{countPic}}'></uploadImages>
+
+	<view class="medicine">
+		<view class="image-wrapper">
+			<image src="{{medicine.logo}}" mode="widthFix"></image>
+		</view>
+		<view class="info-wrapper">
+			<view class="name">{{medicine.name}}</view>
+			<view class="price"><span>￥</span>{{medicine.money}}</view>
+			<view class="num">X1</view>
+
+		</view>
+
+	</view>
+	<view class="foot_pack">
+		<t class="l">
+			<t>￥{{medicine.money}}</t>
+		</t>
+		<t class="r" bindtap="topay">提交需求</t>
+	</view>
+
+</view>
